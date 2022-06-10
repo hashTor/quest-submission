@@ -23,6 +23,7 @@ Explain the difference between a script and a transaction.
 
 0x03
 pub contract JacobTucker{
+
   pub let is: String
       init() {
         self.is = "the best"
