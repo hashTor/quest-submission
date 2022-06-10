@@ -24,11 +24,21 @@ Explain the difference between a script and a transaction.
 0x03
 pub contract JacobTucker{
 
+ 
   pub let is: String
+
+ 
+
       init() {
+
         self.is = "the best"
-    } 
+
+    }
+
+  
 }
+
+ 
 
 Script: 
 
@@ -41,3 +51,4 @@ import JacobTucker from 0x03
 }
 
 
+![Chapter2Day1](https://user-images.githubusercontent.com/85352662/173072122-3e83f502-6614-4a25-95d0-bae5acbcfc4f.jpg)
