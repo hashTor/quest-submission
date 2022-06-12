@@ -81,4 +81,6 @@ Add a transaction that takes in a parameter named myNewNumber and passes it into
 
 ![Chapter2Day2b](https://user-images.githubusercontent.com/85352662/173229606-48ba5dae-d45c-44eb-8851-14caac93b714.jpg)
 
+Inputted the value of 4  which had the following results on my script:
+
 ![Chapter2Day2c](https://user-images.githubusercontent.com/85352662/173229608-9224d740-232d-48eb-bd39-5e1392d2b0fe.jpg)
