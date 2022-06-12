@@ -52,3 +52,33 @@ import JacobTucker from 0x03
 
 
 ![Chapter2Day1](https://user-images.githubusercontent.com/85352662/173072122-3e83f502-6614-4a25-95d0-bae5acbcfc4f.jpg)
+
+
+
+
+## Chapter 2 day 2 Quests
+
+1. Explain why we wouldn't call changeGreeting in a script.
+          - The call "changeGreeting" modified the vasriable  contain those it should ba a transaction not a script.
+2. What does the AuthAccount mean in the prepare phase of the transaction?
+          -Its means that it will accessing my data on my account, then sign it to approve the trasactions.
+         
+3. What is the difference between the prepare phase and the execute phase in the transaction?
+          prepare is to access the data in my account , while execute phase is to call a function or change the blockchain data.
+          
+4. This is the hardest quest so far, so if it takes you some time, do not worry! I can help you in the Discord if you have questions.
+
+Add two new things inside your contract:
+
+A variable named myNumber that has type Int (set it to 0 when the contract is deployed)
+A function named updateMyNumber that takes in a new number named newNumber as a parameter that has type Int and updates myNumber to be newNumber
+Add a script that reads myNumber from the contract
+
+Add a transaction that takes in a parameter named myNewNumber and passes it into the updateMyNumber function. Verify that your number changed by running the script again.
+
+
+![Chapter2Day2a](https://user-images.githubusercontent.com/85352662/173229602-e16d8295-0085-4075-be2f-18e104a291ff.jpg)
+
+![Chapter2Day2b](https://user-images.githubusercontent.com/85352662/173229606-48ba5dae-d45c-44eb-8851-14caac93b714.jpg)
+
+![Chapter2Day2c](https://user-images.githubusercontent.com/85352662/173229608-9224d740-232d-48eb-bd39-5e1392d2b0fe.jpg)
